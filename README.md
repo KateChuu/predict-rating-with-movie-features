@@ -15,8 +15,8 @@ All the results of the models can be found in this file.
 **1. TMDB_train.csv**
    
 This file contains the movie features and labels for training instances.
-Number of instances: 100,000
-Number of columns: 44
+- Number of instances: 100,000
+- Number of columns: 44
 
 The columns are (the column names are in the first row):
 `id`, `title`, `release_year`, `overview`, `tagline`, `runtime`, `budget`, `revenue`, `adult`, `original_language`, `popularity`, `production_companies`, `genre_Action`, `genre_Adventure`, `genre_Animation`, `genre_Comedy`, `genre_Crime`, `genre_Documentary`, `genre_Drama`, `genre_Family`, `genre_Fantasy`, `genre_History`, `genre_Horror`, `genre_Music`, `genre_Mystery`, `genre_Romance`, `genre_Science Fiction`, `genre_TV Movie`, `genre_Thriller`, `genre_War`, `genre_Western`, `product_of_Canada`, `product_of_France`, `product_of_Germany`, `product_of_India`, `product_of_Italy`, `product_of_Japan`, `product_of_Spain`, `product_of_UK`, `product_of_USA`, `product_of_other_countries`, `vote_count`, `rate_category`, `average_rate`
@@ -29,8 +29,8 @@ The class label is in the last two columns: rate_category and average_rate. rate
 **2. TMDB_eval.csv**
    
 This file contains the movie features and labels for evaluation instances.
-Number of instances: 20,000
-Number of columns: 44
+- Number of instances: 20,000
+- Number of columns: 44
 
 The columns in this dataset are similar to the training instances. I am going to use these instances to check the performance of my models.
 
@@ -38,8 +38,8 @@ The columns in this dataset are similar to the training instances. I am going to
 **3. TMDB_test.csv**
    
 This file contains the movie features for test instances.
-Number of instances: 20,000
-Number of columns: 42
+- Number of instances: 20,000
+- Number of columns: 42
 
 The columns are (the column names are in the first row):
 `id`, `title`, `release_year`, `overview`, `tagline`, `runtime`, `budget`, `revenue`, `adult`, `original_language`, `popularity`, `production_companies`, `genre_Action`, `genre_Adventure`, `genre_Animation`, `genre_Comedy`, `genre_Crime`, `genre_Documentary`, `genre_Drama`, `genre_Family`, `genre_Fantasy`, `genre_History`, `genre_Horror`, `genre_Music`, `genre_Mystery`, `genre_Romance`, `genre_Science Fiction`, `genre_TV Movie`, `genre_Thriller`, `genre_War`, `genre_Western`, `product_of_Canada`, `product_of_France`, `product_of_Germany`, `product_of_India`, `product_of_Italy`, `product_of_Japan`, `product_of_Spain`, `product_of_UK`, `product_of_USA`, `product_of_other_countries`, `vote_count`
